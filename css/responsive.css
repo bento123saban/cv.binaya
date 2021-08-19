@@ -1,0 +1,85 @@
+
+
+
+
+
+
+@media(max-width:768px){
+
+    header p {
+        text-align: center;
+        width: min(800px, 90%);
+      }
+      
+      header .head-img {
+        display: flex;
+        justify-content: center;
+      }
+      
+      header .head-img .img-box {
+        width: 100px;
+        height: 100px;
+      }
+      header .head-img .img-box h3 {
+        padding: 4px 0;
+        font-size: 12px;
+      }
+
+        
+    nav {
+        /* flex-direction: column; */
+        background: rgba(0, 0, 0, .8);
+        justify-content: center;
+        align-items: center;
+        padding: 4px 7px;
+        width: 100vw;
+    }
+    nav .nav-list {
+        position: relative;
+        padding: 5px 10px;
+        min-width: 100px;
+        margin: auto;
+        /* background: #ffd700; */
+    }
+      nav .nav-list:hover {
+        background: transparent;
+        
+      }
+    nav .nav-list a {
+        font-size: 12px;
+    }
+
+  
+    .produk-box {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 20px 0;
+    }
+
+
+
+
+    .order {
+        padding: 70px 10px 40px;
+    }
+
+    .order-container .order-pilih .order-item input{
+        width: 50px;
+    }
+
+    .kontak-box {
+        flex-direction: column;
+    }
+    .lokasi-konten a.lokasi-link p {
+        font-size: 12px;
+    }
+    .footer-konten {
+        flex-direction: column;
+    }
+    .footer-konten .box{
+        width: min(500px, 100%);
+    }
+}
