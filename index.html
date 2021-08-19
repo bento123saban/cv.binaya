@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+	<script src="https://kit.fontawesome.com/b9a9bf6e53.js" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1>CV. Binaya Ambon</h1>
+        <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus sed non, veniam nam quo earum. Lorem ipsum Voluptatum consectetur quam, repudiandae harum ad ut ratione voluptatem obcaecati dolorum. Delectus, quae!</p>
+        <br><br><br>
+        <div class="head-img">
+            <a href="#produk" class="img-box">
+                <img src="" alt="">
+                <h3>Lorem, ipsum.</h3>
+            </a>
+            <a href="#produk" class="img-box">
+                <img src="" alt="">
+                <h3>Lorem, ipsum.</h3>
+            </a>
+            <a href="#produk" class="img-box">
+                <img src="" alt="">
+                <h3>Lorem, ipsum.</h3>
+            </a>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="nav-list" class="kategori">
+            <a class="kategori-link kategori" > Kategori <i class="fas fa-chevron-right"></i></a>
+            <div class="kategori-list">
+                <a href="#produk" class="kat-cat">Interior</a>
+                <a href="#produk" class="kat-cat">Eksterior</a>
+            </div>
+        </div>|
+        <div class="nav-list">
+            <a href="#cart"> Keranjang Belanja <i class="fas fa-shopping-cart"></i></a>
+        </div>|
+        <div class="nav-list">
+            <a href="#kontak"> Kontak <i class="fas fa-phone"></i></a>
+        </div>
+    </nav>
+
+    <section class="produk" id="produk">
+        <h1>Produk</h1>
+        <div class="search">
+            <input type="text" id="search" placeholder="Cari..."><i class="fas fa-search"></i>
+        </div>
+        <div class="produk-box">
+            <!-- produk muncul disini -->
+        </div>
+    </section>
+
+
+
+    <div id="tambah-sukses">
+        <p>Item telah ditambahkan. Masukan jumlah item pada <a href="#order">daftar order</a></p>
+    </div>
+
+    <section class="order" id="order">
+        <h1>Order</h1>
+        <!-- <p class="order-ket">Anda juga dapat memesan menu selain yang kami miliki. Silahkan masukkan permintaan menu anda pada kolom deskripsi.</p> -->
+        <div class="order-container" >
+            <label for="order-nama">Nama Lengkap :</label>
+            <input type="text" name="nama" id="order-nama" class="order-input" placeholder="Masukkan Nama Anda" required>
+
+            <label for="order-nama">No Telpon :</label>
+            <input type="number" name="telp" id="order-telpon" class="order-input" placeholder="Masukkan Nomor Telepon Anda" required>
+
+            <p class="daftar-order" id="cart"><i class="fas fa-shopping-cart"></i> Keranjang Belanja :</p>
+            <ol class="order-pilih">
+                
+            </ol>
+            <i class="i">*masukan jumlah sesuai yang diinginkan</i>
+
+            <span class="total-harga"></span>
+
+            <br>
+            <label for="order-deskripsi" class="label">Keterangan:</label>
+            <textarea name="desc" id="order-deskripsi" class="order-input" placeholder="Masukkan Deskripsi orderan Anda, atau jika anda memiliki permintaan tertentu, silahkan masukan disini" required></textarea>
+
+            <!-- <label for="alamat" class="label">Alamat:</label>
+            <textarea name="alamat" id="alamat" class="order-input" placeholder="Masukan Alamat Lengkap Anda untuk pengantaran katering." required></textarea> -->
+
+            <p class="cek-input">Tambahkan item dan masukan semua data</p>
+            <button type="submit" class="order-button" id="order-button">O R D E R</button>
+        </div>
+    </section>
+
+    <section class="kontak" id="kontak">
+        <h3>Hubungi Kami di :</h3>
+		<div class="kontak-box">
+			<div class="kontak-konten">
+				<a href="https://wa.me/+62823-9907-8306?text=Hallo admin Toko Kue Sarah.\n" class="kontak-link">
+					<img src="asset/png/wa.svg" alt="">
+					<p class="wa">082399078306</p>
+				</a>
+			</div>
+			<div class="kontak-konten">
+				<a href="" class="kontak-link">
+					<img src="asset/png/ig.svg" alt="">
+					<p class="ig">IG</p>
+				</a>
+			</div>
+			<div class="kontak-konten">
+				<a href="tel:082399078306" class="kontak-link">
+					<img src="asset/png/telp.svg" alt="">
+					<p class="telp">082399078306</p>
+				</a>
+			</div>
+		</div>
+		<div class="lokasi-konten">
+			<a href="" class="lokasi-link">
+				<i class="fas fa-map-marker-alt"></i>
+				<p>Alamat</p>
+			</a>
+		</div>
+
+		<div class="footer-konten">
+			<div class="box">
+				<h4>Tentang Kami</h4>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt deleniti, nemo laboriosam iusto doloribus perspiciatis soluta autem, magnam ratione optio nam porro totam minus molestiae dolore voluptatum dolor? Omnis, eos. </p>
+			</div>
+			<div class="box">
+				<h4>Jam Layanan :</h4>
+				<p>Setiap Hari, 06.00 - 22.00 WIT <br>Kecuali Minggu (Libur)</p>
+			</div>
+		</div>
+    </section>
+    
+
+    <script src="js/order.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        let orderArray = []
+
+        window.addEventListener('load', function(e) {
+            daftarOrder()
+        })
+
+        window.addEventListener('click', function(e){
+            if (e.target.matches('.tambah')) {
+                tambahOrder(e.target)
+                daftarOrder()
+                hitungTotal()
+            }
+            else if (e.target.matches('.fa-trash')) {
+                hapusItem(e.target)
+                daftarOrder()
+                hitungTotal()
+            }
+            else if (e.target.matches('.order-button')){
+                cekIsi()
+            }
+        })
+
+        window.addEventListener('change', function(e){
+            if (e.target.matches('.jumlah-item')){
+                gantiNilai(e.target)
+                jikaKosong(e.target)
+            }
+        })
+
+        window.addEventListener('keyup', function(e){
+            if(e.target.matches('.order-input')){
+                jikaKosong(e.target)
+            }
+            else if (e.target.matches('.jumlah-item')){
+                gantiNilai(e.target)
+                jikaKosong(e.target)
+                console.info('key up')
+            }
+        })
+    </script>
+</body>
+</html>
